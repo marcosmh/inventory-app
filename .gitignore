@@ -11,4 +11,6 @@
 *.class
 .DS_Store
 
+target/
+target/*
 .idea/
