@@ -41,6 +41,7 @@ public class CategoryServiceImpl implements ICategoryService {
     }
 
     @Override
+    @Transactional(readOnly = true)
     public ResponseEntity<CategoryResponseRest> searchById(Long id) {
         CategoryResponseRest response = new CategoryResponseRest();
         List<Category> list = new ArrayList<>();
