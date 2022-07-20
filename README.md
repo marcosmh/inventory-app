@@ -8,7 +8,7 @@ Sistema de Inventario
 ### Especificaciones:
 Backend:
 - Java 15 Oracle
-- Spring Boot 2.5.12 Red Hat
+- Spring Boot 2.6.9
 - Conexión a Bases de Datos MySQL 8
 - Spring JPA
 - Swagger
